@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EnvironmentVariables
+Bundle-SymbolicName: org.eccosolutions.eclipse.envswitcher;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eccosolutions.eclipse.envswitcher.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.variables;bundle-version="3.2.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
